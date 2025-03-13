@@ -11,11 +11,11 @@ FoodIt is a **food ordering system** designed for college canteens. It includes 
 ### 📷 Image Demos
 | User App | Admin App |
 |------------|------------|
-| <img src="images/ss2user.jpg" width="300"> | <img src="images/ss3admin.jpg" width="300"> |
-| <img src="images/ss1user.jpg" width="300"> | <img src="images/ss1admin.jpg" width="300"> |
+| <img src="images/ss2user.jpg" width="250"> | <img src="images/ss3admin.jpg" width="250"> |
+| <img src="images/ss1user.jpg" width="250"> | <img src="images/ss1admin.jpg" width="250"> |
 
 ### 🎥 Video Demo
-[<img src="images/demovideo.gif" width="300">]
+[<img src="images/demovideo.gif" width="250">]
 
 ## 🚀 Features
 ### User App (FoodIt User)
