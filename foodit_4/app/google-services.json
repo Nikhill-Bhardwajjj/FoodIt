@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "159631036113",
+    "project_id": "foodit-kotlin",
+    "storage_bucket": "foodit-kotlin.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:159631036113:android:fdababd21648d0c6f1fff0",
+        "android_client_info": {
+          "package_name": "com.lihkin16.foodit_4"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB1fG8prerjbGsvq90DZ1ZI3bZwtk_PsPY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/CartItem"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="0dp"
+        android:layout_height="120dp"
+        android:layout_margin="10dp"
+        app:cardCornerRadius="12dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/cartImage"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginStart="16dp"
+                android:scaleType="centerCrop"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.466"
+                app:srcCompat="@drawable/backkground_start_1" />
+
+            <TextView
+                android:id="@+id/cartFoodName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="16dp"
+                android:text="Spicy Paneer"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toEndOf="@+id/cartImage"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/cartFoodDes"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:text="Description"
+                android:textSize="13sp"
+                app:layout_constraintStart_toEndOf="@+id/cartImage"
+                app:layout_constraintTop_toBottomOf="@+id/cartFoodName" />
+
+            <TextView
+                android:id="@+id/cartFoodPrice"
+                android:layout_width="wrap_content"
+                android:layout_height="31dp"
+                android:layout_marginStart="10dp"
+                android:fontFamily="@font/baloo_paaji"
+                android:text="₹80"
+                android:textColor="@color/red"
+                android:textSize="19sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/cartImage"
+                app:layout_constraintTop_toBottomOf="@+id/cartFoodDes" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/cartDelete"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_marginTop="24dp"
+                android:background="@drawable/delete"
+                app:layout_constraintEnd_toEndOf="@+id/cartPlusButton"
+                app:layout_constraintHorizontal_bias="0.538"
+                app:layout_constraintStart_toStartOf="@+id/cartMinusButton"
+                app:layout_constraintTop_toBottomOf="@+id/cartAmout" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/cartPlusButton"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="12dp"
+                android:background="@drawable/addtocartshape"
+                android:text="+"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/cartMinusButton"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/cartminusshape"
+                android:text="-"
+                android:textColor="@color/black"
+                app:layout_constraintEnd_toStartOf="@+id/cartAmout"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/cartAmout"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:text="1"
+                android:textAlignment="center"
+                app:layout_constraintEnd_toStartOf="@+id/cartPlusButton"
+                app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>

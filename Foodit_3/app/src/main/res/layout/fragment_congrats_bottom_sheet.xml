@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/CongratsBottomSheet"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".CongratsBottomSheet">
+
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="330dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="40dp"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="center"
+        android:text="Congrats Your Order is\n Placed"
+        android:textColor="@color/red"
+        android:textSize="24sp"
+        android:textStyle="normal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="246dp"
+        android:layout_height="189dp"
+        android:layout_marginTop="88dp"
+        android:src="@drawable/illustration"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.557"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView20" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/CongratsGoHomeButton"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="76dp"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/redbuttongradient"
+        android:elevation="1dp"
+        android:padding="10dp"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:text="Go Home"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView7"
+        app:layout_constraintVertical_bias="0.18" />
+</androidx.constraintlayout.widget.ConstraintLayout>
