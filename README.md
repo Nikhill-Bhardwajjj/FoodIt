@@ -12,7 +12,7 @@ FoodIt is a **food ordering system** designed for college canteens. It includes 
 | User App | Admin App |
 |------------|------------|
 
-| ![User Home](https://raw.githubusercontent.com/Nikhill-Bhardwajjj/Foodit/main/images/ss2user) | ![Admin Panel](https://raw.githubusercontent.com/Nikhill-Bhardwajjj/Foodit/main/images/ss3admin) |
+| ![User Home](https://raw.githubusercontent.com/Nikhill-Bhardwajjj/FoodIt/main/images/ss2user) | ![Admin Panel](https://raw.githubusercontent.com/Nikhill-Bhardwajjj/FoodIt/main/images/ss3admin) |
 | ![Cart](firebase_image_url_3) | ![Order Management](firebase_image_url_4) |
 
 
